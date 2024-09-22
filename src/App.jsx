@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import TypingRace from './components/TypingRace'; // Import the TypingRace component
-import './appStyles.css'; // Make sure this line is included to import your styles
+import TypingRace from './components/TypingRace';
+import './appStyles.css';
 
 const App = () => {
   return (
