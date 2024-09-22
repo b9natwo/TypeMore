@@ -22,7 +22,7 @@ const App = () => {
                   <button className="main-button" onClick={() => alert('Multiplayer coming soon!')}>Multiplayer</button>
                 </div>
                 <footer className="footer">
-                  <p>GitHub: <a href="https://github.com/b9na/TypeMore" target="_blank" rel="noopener noreferrer">b9na/TypeMore</a></p>
+                  <p>GitHub: <a href="https://github.com/b9natwo" target="_blank" rel="noopener noreferrer">b9na</a></p>
                 </footer>
               </div>
             </div>
