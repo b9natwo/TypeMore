@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #101820; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #F0F0F0;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #1B1F24; /* Dark card background */
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7); /* Dark shadow for depth */
+    max-width: 600px;
+    width: 90%;
+}
+
+.landing-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.landing-title {
+    font-size: 3em;
+    color: #FFDD57; /* Bright yellow for title */
+    margin-bottom: 20px;
+}
+
+.landing-description {
+    font-size: 1.2em;
+    color: #AAAAAA;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    background-color: #FFDD57; /* Bright yellow button */
+    color: #101820; /* Dark text */
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.main-button:hover {
+    background-color: #FFC857; /* Lighter yellow on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #CCCCCC;
+}
+
+.footer a {
+    color: #FFDD57;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
